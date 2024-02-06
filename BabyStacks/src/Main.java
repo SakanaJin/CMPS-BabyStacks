@@ -17,7 +17,7 @@ public class Main {
         while(!stack.isEmpty()){
             temp = temp + stack.pop();
         }
-        a = temp.toString();
+        a = temp;
         temp = "";
 
         for(i = 0; i<b.length();i++){
@@ -27,7 +27,7 @@ public class Main {
         while(!stack.isEmpty()){
             temp = temp + stack.pop();
         }
-        b = temp.toString();
+        b = temp;
         temp = "";
 
         for(i = 0; i<c.length();i++){
@@ -37,7 +37,7 @@ public class Main {
         while(!stack.isEmpty()){
             temp = temp + stack.pop();
         }
-        c = temp.toString();
+        c = temp;
         temp = "";
 
         for(i = 0; i<d.length();i++){
@@ -47,7 +47,7 @@ public class Main {
         while(!stack.isEmpty()){
             temp = temp + stack.pop();
         }
-        d = temp.toString();
+        d = temp;
 
         System.out.println(a + '\n' + b + '\n' + c + '\n' + d);
     }
