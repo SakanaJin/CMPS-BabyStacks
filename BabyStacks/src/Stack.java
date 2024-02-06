@@ -1,6 +1,6 @@
 public class Stack{
-    public int top;
-    public char[] stack = new char[20];
+    private int top;
+    private char[] stack = new char[50];
 
     Stack(){
         top = -1;
@@ -20,4 +20,5 @@ public class Stack{
     boolean isEmpty(){
         return top == -1;
     }
+
 }
